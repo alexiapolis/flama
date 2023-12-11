@@ -3,10 +3,8 @@ import defaultImage from "../images/Photos/374A1318.jpg";
 
 function CardImage(props) {
   return (
-    <div className="card">
-      <div className="card-image">
-        <img src={props.image || defaultImage} alt="" />
-      </div>
+    <div className="card" style={{ width: "50%" }}>
+      <img src={props.image || defaultImage} alt="" />
     </div>
   );
 }
