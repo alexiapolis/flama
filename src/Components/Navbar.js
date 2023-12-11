@@ -30,8 +30,8 @@ function Navbar() {
             <a className="navbar-item">Why girls?</a>
             <a className="navbar-item">Discover Flama</a>
             <a className="navbar-item">Get involved</a>
-            <div class="buttons">
-              <a class="button is-light">Donate</a>
+            <div className="buttons">
+              <a className="button is-light">Donate</a>
             </div>
           </div>
         </div>
