@@ -5,9 +5,7 @@ function CardImage(props) {
   return (
     <div className="card">
       <div className="card-image">
-        <figure className="image is-4by3">
-          <img src={props.image || defaultImage} alt="" />
-        </figure>
+        <img src={props.image || defaultImage} alt="" />
       </div>
     </div>
   );

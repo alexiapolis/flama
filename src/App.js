@@ -1,7 +1,7 @@
 import Navbar from "./Components/Navbar";
 import CardContent from "./Components/CardContent";
 import CardImage from "./Components/CardImage";
-import photo from "./images/Photos/DSC_3305.NEF.jpg";
+import photo from "./images/Photos/DSC_4214.NEF.jpg";
 
 function App() {
   return (
@@ -9,13 +9,9 @@ function App() {
       <div className="container is-fluid">
         <Navbar />
       </div>
-      <div className="columns">
-        <div className="column">
-          <CardContent />
-        </div>
-        <div className="column">
-          <CardImage image={photo} />
-        </div>
+      <div>
+        <CardContent />
+        <CardImage image={photo} />
       </div>
     </div>
   );
